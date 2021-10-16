@@ -7,21 +7,9 @@ class Footer extends Component {
     return (
       <div className='footer'>
 
-        <h1>test</h1>
-        <button
-          className='log-in-btn'
-          alt='Log in Button'
-        >
-          Home
-        </button>
+      <p className='footer-links'>Home | Terms and Conditions | Privacy Policy | Collection Statement | Help | Manage Account</p>
 
-        <button
-          className='free-trial-btn'
-          alt='Free Trial Button'
-        >
-          Start your free trial
-        </button>        
-
+      <p className='copyright'>Copyright © 2016 DEMO Streaming. All Rights Reserved.</p>
       </div>
     )
   }
