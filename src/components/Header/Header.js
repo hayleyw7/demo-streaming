@@ -11,19 +11,23 @@ class Header extends Component {
 
           <h1>DEMO Streaming</h1>
 
-          <button
-            className='log-in-btn'
-            alt='Log in Button'
-          >
-            Log in
-          </button>
+            <section className='nav-bar'>
 
-          <button
-            className='free-trial-btn'
-            alt='Free Trial Button'
-          >
-            Start your free trial
-          </button>        
+              <button
+                className='log-in-btn'
+                alt='Log in Button'
+              >
+                Log in
+              </button>
+
+              <button
+                className='free-trial-btn'
+                alt='Free Trial Button'
+              >
+                Start your free trial
+              </button>   
+
+            </section>     
 
           </section>
 
