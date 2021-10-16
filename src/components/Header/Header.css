@@ -1,0 +1,12 @@
+h1 {
+  background-color: blue;
+  color: white;
+  padding: 1rem 1rem 1rem 7rem;
+}
+
+h2 {
+  background-color: gray;
+  color: white;
+  padding: 1rem 1rem 1rem 7rem;
+  margin-top: -1.35rem;
+}
