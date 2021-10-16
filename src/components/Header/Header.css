@@ -1,7 +1,31 @@
-h1 {
+.top-bar {
   background-color: blue;
   color: white;
   padding: 1rem 1rem 1rem 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: -1rem;
+}
+
+.log-in-btn {
+  height: 2rem;
+  position: fixed;
+  right: 12rem;
+  background-color: blue;
+  border: 0;
+  color: white;
+  margin-top: 1rem;
+}
+
+.free-trial-btn {
+  height: 2rem;
+  position: fixed;
+  right: 2rem;
+  background-color: gray;
+  border: 0;
+  color: white;
+  margin-top: 1rem;  
 }
 
 h2 {
