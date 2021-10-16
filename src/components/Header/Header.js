@@ -5,8 +5,25 @@ const Header = () => {
 
   return (
     <div className='header'>
-      <h1>DEMO Streaming</h1>
-      <h2>Popular Titles</h2>
+
+      <section className='top-bar'>
+
+        <h1>DEMO Streaming</h1>
+
+        <button
+          className='log-in-btn'
+          alt='Log in Button'
+          onClick={event => this.handleClick(event)}
+        >
+          Log in
+        </button>
+
+        </section>
+
+        <section className='bottom-bar'>
+          <h2>Popular Titles</h2>
+        </section>
+
     </div>
   )
 }
