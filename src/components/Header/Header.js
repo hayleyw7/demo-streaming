@@ -3,14 +3,6 @@ import './Header.css';
 
 class Header extends Component {
 
-  handleLoginClick = (event) => {
-    alert('replace with log in click code')
-  }
-
-  handleTrialClick = (event) => {
-    alert('replace with trial click code')
-  }  
-
   render() {
     return (
       <div className='header'>
@@ -22,7 +14,6 @@ class Header extends Component {
           <button
             className='log-in-btn'
             alt='Log in Button'
-            onClick={event => this.handleLoginClick(event)}
           >
             Log in
           </button>
@@ -30,7 +21,6 @@ class Header extends Component {
           <button
             className='free-trial-btn'
             alt='Free Trial Button'
-            onClick={event => this.handleTrialClick(event)}
           >
             Start your free trial
           </button>        
