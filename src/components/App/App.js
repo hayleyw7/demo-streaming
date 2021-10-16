@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Posters from '../Posters/Posters';
+import Footer from '../Footer/Footer';
 
 class App extends Component {
   constructor() {
@@ -1320,6 +1321,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Posters data={this.state.data}/>
+        <Footer />        
       </div>
     );
   }

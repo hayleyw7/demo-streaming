@@ -3,14 +3,6 @@ import './Header.css';
 
 class Header extends Component {
 
-  handleLoginClick = (event) => {
-    alert('replace with log in click code')
-  }
-
-  handleTrialClick = (event) => {
-    alert('replace with trial click code')
-  }  
-
   render() {
     return (
       <div className='header'>
@@ -19,21 +11,23 @@ class Header extends Component {
 
           <h1>DEMO Streaming</h1>
 
-          <button
-            className='log-in-btn'
-            alt='Log in Button'
-            onClick={event => this.handleLoginClick(event)}
-          >
-            Log in
-          </button>
+            <section className='nav-bar'>
 
-          <button
-            className='free-trial-btn'
-            alt='Free Trial Button'
-            onClick={event => this.handleTrialClick(event)}
-          >
-            Start your free trial
-          </button>        
+              <button
+                className='log-in-btn'
+                alt='Log in Button'
+              >
+                Log in
+              </button>
+
+              <button
+                className='free-trial-btn'
+                alt='Free Trial Button'
+              >
+                Start your free trial
+              </button>   
+
+            </section>     
 
           </section>
 
