@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Movies from '../Movies/Movies';
-// import Series from '../Series/Series';
+import Series from '../Series/Series';
 import Footer from '../Footer/Footer';
 
 class App extends Component {
@@ -1322,6 +1322,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Movies data={this.state.data}/>
+        <Series data={this.state.data}/>
         <Footer />        
       </div>
     );

@@ -1,13 +1,13 @@
 import React from 'react';
 import Card from '../Card/Card';
-import './Movies.css';
+import './Series.css';
 
-const Movies = ({ data }) => {
+const Series = ({ data }) => {
 
   // eslint-disable-next-line
   const posterCards = data.entries.map(poster => {
 
-    if (poster.programType === 'movie') {
+    if (poster.programType === 'series') {
       
       return (
         <Card
@@ -31,4 +31,4 @@ const Movies = ({ data }) => {
   )  
 }
 
-export default Movies;
+export default Series;
