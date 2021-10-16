@@ -13,10 +13,18 @@ const Header = () => {
         <button
           className='log-in-btn'
           alt='Log in Button'
-          onClick={event => this.handleClick(event)}
+          onClick={event => this.handleLoginClick(event)}
         >
           Log in
         </button>
+
+        <button
+          className='free-trial-btn'
+          alt='Free Trial Button'
+          onClick={event => this.handleTrialClick(event)}
+        >
+          Start your free trial
+        </button>        
 
         </section>
 
