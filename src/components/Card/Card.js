@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ title, description, programType, image, releaseYear, id, key}) => {
+const Card = ({ title, description, programType, image, releaseYear, id}) => {
   
   return (
     <div className='card' alt='card'>
