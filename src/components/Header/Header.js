@@ -1,39 +1,49 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Header.css';
 
-const Header = () => {
+class Header extends Component {
 
-  return (
-    <div className='header'>
+  handleLoginClick = (event) => {
+    alert('replace with log in click code')
+  }
 
-      <section className='top-bar'>
+  handleTrialClick = (event) => {
+    alert('replace with trial click code')
+  }  
 
-        <h1>DEMO Streaming</h1>
+  render() {
+    return (
+      <div className='header'>
 
-        <button
-          className='log-in-btn'
-          alt='Log in Button'
-          onClick={event => this.handleLoginClick(event)}
-        >
-          Log in
-        </button>
+        <section className='top-bar'>
 
-        <button
-          className='free-trial-btn'
-          alt='Free Trial Button'
-          onClick={event => this.handleTrialClick(event)}
-        >
-          Start your free trial
-        </button>        
+          <h1>DEMO Streaming</h1>
 
-        </section>
+          <button
+            className='log-in-btn'
+            alt='Log in Button'
+            onClick={event => this.handleLoginClick(event)}
+          >
+            Log in
+          </button>
 
-        <section className='bottom-bar'>
-          <h2>Popular Titles</h2>
-        </section>
+          <button
+            className='free-trial-btn'
+            alt='Free Trial Button'
+            onClick={event => this.handleTrialClick(event)}
+          >
+            Start your free trial
+          </button>        
 
-    </div>
-  )
+          </section>
+
+          <section className='bottom-bar'>
+            <h2>Popular Titles</h2>
+          </section>
+
+      </div>
+    )
+  }
 }
 
 export default Header;
