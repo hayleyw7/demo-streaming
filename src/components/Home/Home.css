@@ -1,0 +1,23 @@
+.tile {
+  position: relative;
+}
+
+.category-movies {
+  position: absolute;
+  top: 7.6rem;
+  left: 5.5rem;
+  color: white;
+  font-size: 20px;
+}
+
+.category-series {
+  position: absolute;
+  top: 7.6rem;
+  left: 5.8rem;
+  color: white;
+  font-size: 20px;
+}
+
+.action {
+  margin: .3rem;
+}
