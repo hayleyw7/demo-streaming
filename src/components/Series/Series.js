@@ -5,7 +5,7 @@ import './Series.css';
 const Series = ({ data }) => {
 
   // eslint-disable-next-line
-  const posterCards = data.entries.map(poster => {
+  const posterCards = data.map(poster => {
 
     if (poster.programType === 'series') {
       
