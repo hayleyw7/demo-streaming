@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
+import Home from '../Home/Home';
 import Movies from '../Movies/Movies';
 import Series from '../Series/Series';
 import Footer from '../Footer/Footer';
@@ -1321,6 +1322,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Home />
         <Movies data={this.state.data}/>
         <Series data={this.state.data}/>
         <Footer />        
