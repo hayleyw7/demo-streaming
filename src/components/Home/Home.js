@@ -7,21 +7,27 @@ const Home = () => {
 
   return (
     <div>
-      <div className='home-container'>    
+      <div className='poster-container'>    
 
-        <img
-          src={action}
-          className='placeholder'
-          alt='Popular Series'
-          id='1'
-        />
+        <article className='tile'>
+          <img
+            src={action}
+            className='action'
+            alt='Popular Series'
+            id='1'
+          />
+          <p className='category-series'>SERIES</p>
+        </article>
 
-        <img
-          src={action}
-          className='placeholder'
-          alt='Popular Movies'
-          id='2'
-        />
+        <article className='tile'>
+          <img
+            src={action}
+            className='action'
+            alt='Popular Movies'
+            id='2'
+          />
+          <p className='category-movies'>MOVIES</p>
+        </article>
 
       </div>
     </div>
