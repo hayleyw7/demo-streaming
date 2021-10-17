@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route } from "react-router";
 import './App.css';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
@@ -1322,9 +1323,27 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Home />
-        <Movies data={this.state.data}/>
-        <Series data={this.state.data}/>
+
+        <Route exact path='/' 
+          render={() => 
+            <Home />
+          }
+        />
+
+        <Route exact path='/movies' 
+          render={() => 
+            <Movies data={this.state.data}/>
+          }
+        />
+
+        <Route exact path='/series' 
+          render={() => 
+            <Series data={this.state.data}/>
+          }
+        />        
+
+
+
         <Footer />        
       </div>
     );
