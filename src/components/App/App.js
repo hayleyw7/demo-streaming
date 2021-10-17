@@ -9,6 +9,7 @@ import Movies from '../Movies/Movies';
 import Series from '../Series/Series';
 import Footer from '../Footer/Footer';
 import Loader from '../Loader/Loader';
+import Error from '../Error/Error';
 
 class App extends Component {
   constructor() {
@@ -31,7 +32,9 @@ class App extends Component {
       <div className="App">
         <Header />
 
-          {!this.state.data.length ? <Loader /> :
+          {
+            this.state.errorKey === 'error' ? <Error /> :
+            !this.state.data.length ? <Loader /> :
 
             <div>
 
