@@ -31,6 +31,8 @@ class App extends Component {
       <div className="App">
         <Header />
 
+          {!this.state.data.length ? <Loader /> :
+
             <div>
 
             <Route exact path='/' 
@@ -53,7 +55,8 @@ class App extends Component {
               }
             />  
 
-            </div>   
+            </div>  
+           } 
 
           <Footer />  
 
