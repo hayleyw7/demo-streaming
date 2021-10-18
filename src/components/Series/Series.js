@@ -29,15 +29,6 @@ const Series = ({ data }) => {
     }
   })
 
-  // const first21Cards = () => {
-  //   if (posterCards.length > 21) {
-  //     const subThis = posterCards.length - 21;
-  //     return posterCards.slice(-subThis);
-  //   } else {
-  //     return posterCards;
-  //   }
-  // }  
-
   return (
     <div>
       <section className='bottom-bar'>
