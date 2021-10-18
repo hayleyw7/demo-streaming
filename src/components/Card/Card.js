@@ -14,9 +14,6 @@ const Card = ({ title, description, programType, image, releaseYear, id}) => {
       />
 
       <h3 className='title'>{title}</h3>
-      {/* <p className='description'>{description}</p>
-      <p className='programType'>{programType}</p>
-      <p className='releaseYear'>{releaseYear}</p> */}
       
     </div>
   )

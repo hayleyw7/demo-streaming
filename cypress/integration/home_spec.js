@@ -1,20 +1,22 @@
 describe('Home', () => {
 
   beforeEach(() => {
-    cy.interceptFetch()
+    cy.loadHome()
   })
 
   it('should keep original url', () => {
     cy.url().should('eq', 'http://localhost:3000/')
   })
 
-  it('should render header', () => {
+  it('should render correct header', () => {
     cy.get('h1')
       .contains('DEMO')
     .get('button')
       .contains('Log')
     .get('button')
       .contains('trial')
+    .get('h2')
+      .contains('Titles')
   })
 
   it('should render tiles', () => {

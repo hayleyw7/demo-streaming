@@ -1,6 +1,15 @@
-Cypress.Commands.add('interceptFetch', () => {
+Cypress.Commands.add('loadHome', () => {
   cy.visit('http://localhost:3000')
-  .intercept('feed/sample.json', {
-    fixture: 'test_data.json',
-  })
+})
+
+Cypress.Commands.add('loadMovies', () => {
+  cy.loadHome()
+  cy.get('p[class="category-movies"]')
+    .click()  
+})
+
+Cypress.Commands.add('loadSeries', () => {
+  cy.loadHome()
+  cy.get('p[class="category-series"]')
+    .click()  
 })
