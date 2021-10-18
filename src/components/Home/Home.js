@@ -34,7 +34,7 @@ const Home = () => {
 
           <Link
             to={'/movies'}
-            key='1' 
+            key='2' 
           >
 
             <article className='tile'>

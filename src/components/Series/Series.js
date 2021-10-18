@@ -5,10 +5,17 @@ import './Series.css';
 const Series = ({ data }) => {
 
   // eslint-disable-next-line
-  const posterCards = data.sort((posterA, posterB) =>
-    posterA.title - posterB.title
-  )
+  const posterCards = data.sort(function (posterA, posterB) {
+    if (posterB.title > posterA.title) {
+        return -1;
+    }
+    if (posterA.title > posterB.title) {
+        return 1;
+    }
+    return 0;
+  })
   
+  // eslint-disable-next-line
   .map(poster => {
 
     if (poster.programType === 'series') {
