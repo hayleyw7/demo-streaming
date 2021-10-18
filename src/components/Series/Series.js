@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../Card/Card';
-import './Series.css';
 
 const Series = ({ data }) => {
 
@@ -34,7 +33,7 @@ const Series = ({ data }) => {
         )
       }
     }
-  })
+  }).slice(0, 47)
 
   return (
     <div>
