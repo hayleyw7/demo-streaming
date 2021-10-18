@@ -30,22 +30,7 @@ const Movies = ({ data }) => {
         />
       )
     }
-  })
-
-  // const first21Cards = () => {
-  //   for (let i = 0; i < 21; i++) { 
-  //     return posterCards[i]
-  //   }
-  // }
-
-  // const first21Cards = () => {
-  //   if (posterCards.length > 21) {
-  //     const subThis = posterCards.length - 21;
-  //     return posterCards.slice(-subThis);
-  //   } else {
-  //     return posterCards;
-  //   }
-  // }
+  }).slice(0, 87)
 
   return (
     <div>
