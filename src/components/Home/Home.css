@@ -1,5 +1,6 @@
 .tile {
   position: relative;
+  margin: 1rem 2rem 0 0;
 }
 
 .category-movies {
