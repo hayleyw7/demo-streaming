@@ -8,17 +8,20 @@ const Movies = ({ data }) => {
   const posterCards = data.map(poster => {
 
     if (poster.programType === 'movie') {
+
+      if (poster.releaseYear > 2010) {
       
-      return (
-        <Card
-          title={poster.title}
-          description={poster.description}
-          image={poster.images['Poster Art'].url}   
-          releaseYear={poster.releaseYear}                
-          id={poster.title}
-          key={poster.title} 
-        />
-      )
+        return (
+          <Card
+            title={poster.title}
+            description={poster.description}
+            image={poster.images['Poster Art'].url}   
+            releaseYear={poster.releaseYear}                
+            id={poster.title}
+            key={poster.title} 
+          />
+        )
+      }
     }
   })
 

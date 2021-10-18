@@ -9,16 +9,19 @@ const Series = ({ data }) => {
 
     if (poster.programType === 'series') {
       
-      return (
-        <Card
-          title={poster.title}
-          description={poster.description}
-          image={poster.images['Poster Art'].url}   
-          releaseYear={poster.releaseYear}                
-          id={poster.title}
-          key={poster.title} 
-        />
-      )
+      if (poster.releaseYear > 2010) {
+
+        return (
+          <Card
+            title={poster.title}
+            description={poster.description}
+            image={poster.images['Poster Art'].url}   
+            releaseYear={poster.releaseYear}                
+            id={poster.title}
+            key={poster.title} 
+          />
+        )
+      }
     }
   })
 
