@@ -6,7 +6,6 @@ import action from '../../assets/action.png';
 
 const Home = () => {
   
-
   return (
     <div>
       <section className='bottom-bar'>

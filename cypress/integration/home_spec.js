@@ -17,12 +17,17 @@ describe('Home', () => {
       .contains('trial')
   })
 
-  it('should render cards', () => {
-    cy.get('h1')
-      .contains('DEMO')
-    .get('button')
-      .contains('Log')
-    .get('button')
-      .contains('trial')
+  it('should render tiles', () => {
+    cy.get('article')
+      .contains('SERIES')
+    .get('article')
+      .contains('MOVIES')
   })
+
+  it('should render footer', () => {
+    cy.get('p')
+      .contains('Home')
+    .get('p')
+      .contains('2016')
+  })  
 })
