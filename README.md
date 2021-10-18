@@ -1,27 +1,25 @@
 # DEMO Streaming
 
-DEMO Streaming provides a list of popular, new movies and series.
+[DEMO Streaming](https://auddia-hayley.surge.sh/) provides a list of popular, new movies and series.
 
-[It can be accessed here.](https://auddia-hayley.surge.sh/)
-
-This was created as part an [Auddia Coding Challenge](https://github.com/hayleyw7/auddia-react-coding-challenge).
+It was created for the [Auddia Coding Challenge](https://github.com/hayleyw7/auddia-react-coding-challenge).
 
 ## Reflections
 
-#### How did you decide on the technical and architectural choices used as part of your solution?
+### How did you decide on the technical and architectural choices used as part of your solution?
 
 I chose Cypress for testing, because it works seamlessly to test what is rendered on the DOM.
 
-I chose to do a large number of specific components so that it would be easy for the project to grow with time, and it makes everything very organized.
+I created large number of specific components to provide space for the project to grow and remain organized with time.
 
 I sorted the files in very specific ways, as well, so that the code is easier to navigate and more in line with code bases to which I've previous contributed.
 
-I implemented Router to change URLs between pages, because it's simple to use and understand, and it is much better to allow the user to favorite pages and use the back button.
+I implemented Router to change URLs between pages, because the code is simple to use and understand, and it allows the user to favorite pages and use the back button.
 
-#### Are there any improvements you could make to your submission?
+### Are there any improvements you could make to your submission?
 
 I would love to dry up the code and use more dynamic functions, as well as improve the CSS.
-#### What would you do differently if you were allocated more time?
+### What would you do differently if you were allocated more time?
 
 I would really have liked to learn and implement hooks. 
 
@@ -37,9 +35,9 @@ Built with Visual Studio Code
 
 Visit the site [here](https://auddia-hayley.surge.sh/).
 
-When opening the home page, the user will see a header, a footer, and can select between two tiles: "SERIES" and "MOVIES".
+When opening the home page, the user will see a header, a footer, and two tiles: "SERIES" and "MOVIES".
 
-Depending on which they choose, they will either be taken to a page for series or movies, where the can alphabetically view the posters and title of 21 releases older than 2013.
+Depending on which of the two tiles they choose, they will either be taken to a page for series or movies, where they can alphabetically view the posters and titles of 21 releases newer than 2013.
 
 ## Future additions
 
