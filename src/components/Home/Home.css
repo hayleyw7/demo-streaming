@@ -1,5 +1,6 @@
 .tile {
   position: relative;
+  margin: 1rem 2rem 0 0;
 }
 
 .category-movies {
@@ -8,6 +9,7 @@
   left: 5.5rem;
   color: white;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .category-series {
@@ -16,6 +18,7 @@
   left: 5.8rem;
   color: white;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .action {
