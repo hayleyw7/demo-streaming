@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# DEMO Streaming
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[DEMO Streaming](https://auddia-hayley.surge.sh/) provides a list of popular, new movies and series.
 
-## Available Scripts
+It was created for the [Auddia Coding Challenge](https://github.com/hayleyw7/auddia-react-coding-challenge).
 
-In the project directory, you can run:
+## Reflections
 
-### `npm start`
+### How did you decide on the technical and architectural choices used as part of your solution?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I chose Cypress for testing, because it works seamlessly to test what is rendered on the DOM.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I created large number of specific components to provide space for the project to grow and remain organized with time.
 
-### `npm test`
+I sorted the files in very specific ways, as well, so that the code is easier to navigate and more in line with code bases to which I've previous contributed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I implemented Router to change URLs between pages, because the code is simple to use and understand, and it allows the user to favorite pages and use the back button.
 
-### `npm run build`
+### Are there any improvements you could make to your submission?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I would love to dry up the code and use more dynamic functions, as well as improve the CSS.
+### What would you do differently if you were allocated more time?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I would really have liked to learn and implement hooks. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Languages and technology
 
-### `npm run eject`
+Utilizes JavaScript, React, CSS, HTML/JSX, NPM, Node, Cypress, Router, & Surge
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Built with Visual Studio Code
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Code stored on GitHub](https://github.com/hayleyw7/auddia)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Access and use website
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Visit the site [here](https://auddia-hayley.surge.sh/).
 
-## Learn More
+When opening the home page, the user will see a header, a footer, and two tiles: "SERIES" and "MOVIES".
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Depending on which of the two tiles they choose, they will either be taken to a page for series or movies, where they can alphabetically view the posters and titles of 21 releases newer than 2013.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future additions
 
-### Code Splitting
+* A neat addition would be to allow the user to "favorite" movies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors
 
-### Analyzing the Bundle Size
+Project completed by [Hayley Witherell](https://github.com/hayleyw7)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project designed by [Luis Metzger](https://github.com/luismetzger/)
