@@ -16,12 +16,16 @@ I sorted the files in very specific ways, as well, so that the code is easier to
 
 I implemented Router to change URLs between pages, because the code is simple to use and understand, and it allows the user to favorite pages and use the back button.
 
+I used Lighthouse, because I want every project I make to score 100% on accessibility, and that is a quick, easy, well-regarded way to gauge it. This is why I went darker with the header bar after completing the project and screenshotting it, because I needed a higher contrast ratio to reach its best. The site scores 100 on all 3 pages: home, movies, and series.
+
 ### Are there any improvements you could make to your submission?
 
 I would love to dry up the code and use more dynamic functions, as well as improve the CSS.
 ### What would you do differently if you were allocated more time?
 
 I would really have liked to learn and implement hooks. 
+
+I would update screenshots to reflect the darker header after using a Lighthouse report.
 
 ## Languages and technology
 
