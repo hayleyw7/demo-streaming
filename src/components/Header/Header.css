@@ -31,3 +31,21 @@ h2 {
   padding: 1rem 1rem 1rem 7rem;
   margin-top: -1.35rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .top-bar {
+    padding: 1rem 1rem 1rem 2rem;
+  }
+
+  .log-in-btn {
+    margin-top: 0rem;
+  }
+
+  .free-trial-btn {
+    margin-top: 0rem;
+  }
+
+  h2 {
+    margin-left: -5rem;
+  }
+}   

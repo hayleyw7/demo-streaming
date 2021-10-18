@@ -24,6 +24,10 @@ const Movies = ({ data }) => {
 
   return (
     <div>
+      <section className='bottom-bar'>
+        <h2>Popular Movies</h2>
+      </section>
+
       <div className='poster-container'>    
         {posterCards}
       </div>

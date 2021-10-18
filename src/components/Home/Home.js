@@ -9,6 +9,10 @@ const Home = () => {
 
   return (
     <div>
+      <section className='bottom-bar'>
+        <h2>Popular Titles</h2>
+      </section>
+
       <div className='poster-container'>    
 
         <Link
