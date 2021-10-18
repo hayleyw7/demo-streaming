@@ -26,18 +26,12 @@ describe('Movies', () => {
       .contains('2016')
   })  
   
-  it('should render movie titles', () => {
+  it('should render movies', () => {
     cy.get('h3')
       .contains('Prisoners')
     .get('h3')
       .contains('Tracers')
   })
-
-  it('should render posters', () => {
-    cy.wait(1000)
-    .get('img[class="icon"]')
-      .should('be.visible')
-  })    
 
    it('should not render series', () => {
     cy.get('h3')
