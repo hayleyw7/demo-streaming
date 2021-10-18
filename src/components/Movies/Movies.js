@@ -5,7 +5,10 @@ import './Movies.css';
 const Movies = ({ data }) => {
 
   // eslint-disable-next-line
-  const posterCards = data.map(poster => {
+  const posterCards = data.sort((posterA, posterB) =>
+    posterA.title - posterB.title
+  )
+  .map(poster => {
 
     if (poster.programType === 'movie') {
 
@@ -24,6 +27,15 @@ const Movies = ({ data }) => {
       }
     }
   })
+
+  // const first21Cards = () => {
+  //   if (posterCards.length > 21) {
+  //     const subThis = posterCards.length - 21;
+  //     return posterCards.slice(-subThis);
+  //   } else {
+  //     return posterCards;
+  //   }
+  // }
 
   return (
     <div>
