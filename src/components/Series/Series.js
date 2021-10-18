@@ -24,6 +24,10 @@ const Series = ({ data }) => {
 
   return (
     <div>
+      <section className='bottom-bar'>
+        <h2>Popular Series</h2>
+      </section>
+
       <div className='poster-container'>    
         {posterCards}
       </div>
