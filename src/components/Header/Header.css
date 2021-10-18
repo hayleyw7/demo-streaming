@@ -44,4 +44,8 @@ h2 {
   .free-trial-btn {
     margin-top: 0rem;
   }
+
+  h2 {
+    margin-left: -5rem;
+  }
 }   
