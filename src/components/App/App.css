@@ -1,3 +1,7 @@
+.App {
+  max-width: 81vw;
+}
+
 .poster-container {
   display: flex;
   flex-wrap: wrap;
