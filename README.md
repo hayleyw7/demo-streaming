@@ -39,6 +39,24 @@ When opening the home page, the user will see a header, a footer, and two tiles:
 
 Depending on which of the two tiles they choose, they will either be taken to a page for series or movies, where they can alphabetically view the posters and titles of 21 releases newer than 2013.
 
+## Screenshots
+
+### Desktop
+
+<p>
+  <img src="./src/assets/readme/home-desktop.png" alt="desktop home screenshot" width="250"/>
+  <img src="./src/assets/readme/movies-desktop.png" alt="desktop movies screenshot" width="250"/>
+  <img src="./src/assets/readme/series-desktop.png" alt="desktop series screenshot" width="250"/>
+</p>
+
+### Mobile
+
+<p>
+  <img src="./src/assets/readme/home-mobile.jpg" alt="mobile home screenshot" width="200"/>
+  <img src="./src/assets/readme/movies-mobile.jpg" alt="mobile movies screenshot" width="200"/>
+  <img src="./src/assets/readme/series-mobile.jpg" alt="mobile series screenshot" width="200"/>
+</p>
+
 ## Future additions
 
 * A neat addition would be to allow the user to "favorite" movies.
