@@ -8,13 +8,26 @@ This was created as part an [Auddia Coding Challenge](https://github.com/hayleyw
 
 ## Reflections
 
-A challenge was working out stubbing.
+#### How did you decide on the technical and architectural choices used as part of your solution?
 
-Big successes were Router, API calls, data cleaning, and getting stubbing to work.
+I chose Cypress for testing, because it works seamlessly to test what is rendered on the DOM.
+
+I chose to do a large number of specific components so that it would be easy for the project to grow with time, and it makes everything very organized.
+
+I sorted the files in very specific ways, as well, so that the code is easier to navigate and more in line with code bases to which I've previous contributed.
+
+I implemented Router to change URLs between pages, because it's simple to use and understand, and it is much better to allow the user to favorite pages and use the back button.
+
+#### Are there any improvements you could make to your submission?
+
+I would love to dry up the code and use more dynamic functions, as well as improve the CSS.
+#### What would you do differently if you were allocated more time?
+
+I would really have liked to learn and implement hooks. 
 
 ## Languages and technology
 
-Utilizes JavaScript, React, CSS, HTML/JSX, NPM, Node, Cypress, & Surge
+Utilizes JavaScript, React, CSS, HTML/JSX, NPM, Node, Cypress, Router, & Surge
 
 Built with Visual Studio Code
 
